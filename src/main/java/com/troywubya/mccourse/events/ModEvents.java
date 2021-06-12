@@ -40,7 +40,7 @@ public class ModEvents
                     // Deletes the item
                     player.getHeldItemMainhand().shrink(1);
 
-                    target.addPotionEffect(new EffectInstance(Effects.GLOWING, 500));
+                    target.addPotionEffect(new EffectInstance(Effects.GLOWING, 600));
 
                     if(!player.world.isRemote())
                     {
